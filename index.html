@@ -1,0 +1,1136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+    
+    <!-- SEO Meta Tags -->
+    <title>gogold - Best Gold Detector Finder - Personalized Recommendations Tool</title>
+    <meta name="description" content="gogold helps you find the perfect gold metal detector for your needs. Answer a few questions and get personalized recommendations based on budget, experience level, and detection depth. Compare top-rated detectors with direct Amazon affiliate links.">
+    <meta name="keywords" content="gold detector, metal detector, gold metal detector, treasure hunting, metal detecting, detector recommendation, best gold detector, waterproof metal detector, professional detector, gogold">
+    <meta name="author" content="gogold">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Open Graph Tags -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="gogold - Best Gold Detector Finder">
+    <meta property="og:description" content="Find the perfect gold metal detector for your specific needs with gogold. Get personalized recommendations based on budget, experience level, and detection depth.">
+    <meta property="og:url" content="https://gogold.com">
+    <meta property="og:site_name" content="gogold">
+    
+    <!-- Twitter Card Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="gogold - Best Gold Detector Finder">
+    <meta name="twitter:description" content="Find the perfect gold metal detector for your specific needs with gogold.">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://gogold.com">
+    
+    <!-- Additional Meta Tags -->
+    <meta name="language" content="English">
+    <meta name="revisit-after" content="7 days">
+    <meta name="rating" content="general">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebApplication",
+      "name": "gogold",
+      "description": "Personalized gold metal detector recommendation tool",
+      "url": "https://gogold.com",
+      "applicationCategory": "Shopping",
+      "offers": {
+        "@type": "AggregateOffer",
+        "priceCurrency": "USD",
+        "priceRange": "$100-$500"
+      }
+    }
+    </script>
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            background: linear-gradient(to bottom, #f8fafc, #ffffff);
+            color: #1e293b;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 1rem;
+        }
+
+        /* Navigation */
+        nav {
+            position: sticky;
+            top: 0;
+            z-index: 50;
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            border-bottom: 1px solid #e2e8f0;
+            padding: 1rem 0;
+        }
+
+        nav .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-weight: 700;
+            font-size: 1.5rem;
+            color: #1e293b;
+        }
+
+        /* Main Content */
+        main {
+            flex: 1;
+        }
+
+        /* Hero Section */
+        .hero {
+            padding: 4rem 0;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: 3.5rem;
+            font-weight: 700;
+            color: #1e293b;
+            margin-bottom: 1.5rem;
+            line-height: 1.2;
+        }
+
+        .hero p {
+            font-size: 1.25rem;
+            color: #64748b;
+            margin-bottom: 2rem;
+            max-width: 42rem;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 2.5rem;
+            }
+        }
+
+        /* Quiz Section */
+        .quiz-section {
+            padding: 3rem 0;
+        }
+
+        .quiz-card {
+            background: white;
+            border-radius: 0.5rem;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+            padding: 2rem;
+            max-width: 42rem;
+            margin: 0 auto;
+        }
+
+        .quiz-question {
+            margin-bottom: 2rem;
+        }
+
+        .quiz-question label {
+            display: block;
+            font-size: 1.125rem;
+            font-weight: 600;
+            color: #1e293b;
+            margin-bottom: 1rem;
+        }
+
+        .option-button {
+            display: block;
+            width: 100%;
+            padding: 1rem;
+            margin-bottom: 0.75rem;
+            border: 2px solid #e2e8f0;
+            border-radius: 0.5rem;
+            background: white;
+            text-align: left;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            font-size: 1rem;
+        }
+
+        .option-button:hover {
+            border-color: #cbd5e1;
+        }
+
+        .option-button.selected {
+            border-color: #b45309;
+            background: #fffbeb;
+        }
+
+        .option-icon {
+            display: inline-block;
+            margin-right: 0.75rem;
+            font-size: 1.5rem;
+        }
+
+        /* Buttons */
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            padding: 0.75rem 1.5rem;
+            border: none;
+            border-radius: 0.5rem;
+            font-size: 1rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            text-decoration: none;
+        }
+
+        .btn-primary {
+            width: 100%;
+            background: #b45309;
+            color: white;
+            font-size: 1.125rem;
+            padding: 1.5rem;
+            margin-top: 2rem;
+        }
+
+        .btn-primary:hover {
+            background: #92400e;
+        }
+
+        .btn-outline {
+            border: 2px solid #b45309;
+            color: #b45309;
+            background: white;
+        }
+
+        .btn-outline:hover {
+            background: #fffbeb;
+        }
+
+        .btn-amazon {
+            background: #b45309;
+            color: white;
+            padding: 0.75rem 1.5rem;
+            margin-top: 1rem;
+        }
+
+        .btn-amazon:hover {
+            background: #92400e;
+        }
+
+        /* Info Cards */
+        .info-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+            padding: 4rem 0;
+        }
+
+        .info-card {
+            background: white;
+            padding: 1.5rem;
+            border-radius: 0.5rem;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+        }
+
+        .info-card h3 {
+            font-weight: 600;
+            color: #1e293b;
+            margin-bottom: 0.5rem;
+        }
+
+        .info-card p {
+            color: #64748b;
+            font-size: 0.95rem;
+        }
+
+        .icon {
+            width: 2.5rem;
+            height: 2.5rem;
+            color: #b45309;
+            margin-bottom: 1rem;
+        }
+
+        /* Results Section */
+        .results-section {
+            padding: 3rem 0;
+        }
+
+        .results-header {
+            text-align: center;
+            margin-bottom: 3rem;
+        }
+
+        .results-header h2 {
+            font-size: 2.25rem;
+            font-weight: 700;
+            color: #1e293b;
+            margin-bottom: 1rem;
+        }
+
+        .results-header p {
+            font-size: 1.125rem;
+            color: #64748b;
+        }
+
+        .detector-card {
+            background: white;
+            border-left: 4px solid #b45309;
+            border-radius: 0.5rem;
+            padding: 1.5rem;
+            margin-bottom: 2rem;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+            transition: box-shadow 0.3s ease;
+        }
+
+        .detector-card:hover {
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+        }
+
+        .detector-grid {
+            display: grid;
+            grid-template-columns: 1fr 3fr;
+            gap: 2rem;
+            align-items: start;
+        }
+
+        @media (max-width: 768px) {
+            .detector-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        .detector-image {
+            background: #f1f5f9;
+            border-radius: 0.5rem;
+            padding: 1rem;
+            min-height: 200px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .detector-image img {
+            max-width: 100%;
+            max-height: 200px;
+            object-fit: contain;
+        }
+
+        .detector-info h3 {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: #1e293b;
+            margin-bottom: 0.5rem;
+        }
+
+        .detector-badge {
+            display: inline-block;
+            background: #b45309;
+            color: white;
+            padding: 0.25rem 0.75rem;
+            border-radius: 9999px;
+            font-size: 0.875rem;
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+        }
+
+        .detector-rating {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            margin-bottom: 1rem;
+        }
+
+        .stars {
+            display: flex;
+            gap: 0.25rem;
+        }
+
+        .star {
+            color: #fbbf24;
+            font-size: 1rem;
+        }
+
+        .star.empty {
+            color: #e5e7eb;
+        }
+
+        .price {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: #b45309;
+        }
+
+        .hook {
+            background: #fffbeb;
+            border-left: 4px solid #fcd34d;
+            padding: 1rem;
+            margin: 1rem 0;
+            border-radius: 0.25rem;
+            font-style: italic;
+            color: #64748b;
+        }
+
+        .specs-grid {
+            background: #f8fafc;
+            padding: 1rem;
+            border-radius: 0.5rem;
+            margin: 1rem 0;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 1rem;
+        }
+
+        .spec-item {
+            display: flex;
+            gap: 0.5rem;
+        }
+
+        .spec-icon {
+            width: 1rem;
+            height: 1rem;
+            color: #2563eb;
+            flex-shrink: 0;
+            margin-top: 0.125rem;
+        }
+
+        .spec-content {
+            flex: 1;
+        }
+
+        .spec-label {
+            font-size: 0.75rem;
+            color: #64748b;
+            text-transform: uppercase;
+        }
+
+        .spec-value {
+            font-weight: 600;
+            color: #1e293b;
+            font-size: 0.875rem;
+        }
+
+        /* FAQ Section */
+        .faq-section {
+            background: #f8fafc;
+            border-radius: 0.5rem;
+            padding: 3rem;
+            margin: 4rem 0;
+        }
+
+        .faq-section h2 {
+            font-size: 1.875rem;
+            font-weight: 700;
+            color: #1e293b;
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+
+        .faq-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+        }
+
+        .faq-item h3 {
+            font-weight: 600;
+            color: #1e293b;
+            margin-bottom: 0.5rem;
+        }
+
+        .faq-item p {
+            color: #64748b;
+            font-size: 0.95rem;
+        }
+
+        /* Footer */
+        footer {
+            background: #0f172a;
+            color: white;
+            margin-top: 4rem;
+            padding: 3rem 0;
+        }
+
+        .footer-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 2rem;
+            margin-bottom: 2rem;
+        }
+
+        footer h4 {
+            font-weight: 700;
+            margin-bottom: 1rem;
+        }
+
+        footer ul {
+            list-style: none;
+        }
+
+        footer li {
+            margin-bottom: 0.5rem;
+        }
+
+        footer a {
+            color: #94a3b8;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        footer a:hover {
+            color: white;
+        }
+
+        .footer-bottom {
+            border-top: 1px solid #334155;
+            padding-top: 2rem;
+            text-align: center;
+            color: #94a3b8;
+            font-size: 0.875rem;
+        }
+
+        /* Hidden Sections */
+        .hidden {
+            display: none;
+        }
+
+        /* Utility Classes */
+        .flex {
+            display: flex;
+        }
+
+        .justify-between {
+            justify-content: space-between;
+        }
+
+        .items-center {
+            align-items: center;
+        }
+
+        .text-center {
+            text-align: center;
+        }
+
+        .mb-4 {
+            margin-bottom: 1rem;
+        }
+
+        .mt-4 {
+            margin-top: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="container flex justify-between items-center">
+            <div class="logo">gogold</div>
+            <button id="resetBtn" class="btn btn-outline hidden">Start Over</button>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Quiz Section -->
+        <div id="quizSection">
+            <!-- Hero Section -->
+            <section class="hero">
+                <div class="container">
+                    <h1>Find Your Perfect Gold Detector</h1>
+                    <p>Answer a few simple questions and we'll recommend the best metal detector for your specific needs, budget, and experience level.</p>
+                </div>
+            </section>
+
+            <!-- Quiz Card -->
+            <section class="quiz-section">
+                <div class="quiz-card">
+                    <!-- Question 1 -->
+                    <div class="quiz-question">
+                        <label>What's your experience level?</label>
+                        <button class="option-button" onclick="selectAnswer('experience', 'beginner')">
+                            <span class="option-icon">🌱</span>
+                            <strong>Beginner</strong> - Just starting out
+                        </button>
+                        <button class="option-button" onclick="selectAnswer('experience', 'intermediate')">
+                            <span class="option-icon">⭐</span>
+                            <strong>Intermediate</strong> - Some experience
+                        </button>
+                        <button class="option-button" onclick="selectAnswer('experience', 'professional')">
+                            <span class="option-icon">🏆</span>
+                            <strong>Professional</strong> - Experienced prospector
+                        </button>
+                    </div>
+
+                    <!-- Question 2 -->
+                    <div class="quiz-question">
+                        <label>What's your budget?</label>
+                        <button class="option-button" onclick="selectAnswer('budget', 'low')">
+                            <span class="option-icon">💰</span>
+                            <strong>Budget-Friendly</strong> ($100-$150)
+                        </button>
+                        <button class="option-button" onclick="selectAnswer('budget', 'medium')">
+                            <span class="option-icon">💵</span>
+                            <strong>Mid-Range</strong> ($150-$300)
+                        </button>
+                        <button class="option-button" onclick="selectAnswer('budget', 'high')">
+                            <span class="option-icon">💎</span>
+                            <strong>Premium</strong> ($300+)
+                        </button>
+                    </div>
+
+                    <!-- Question 3 -->
+                    <div class="quiz-question">
+                        <label>What detection depth do you need?</label>
+                        <button class="option-button" onclick="selectAnswer('depth', 'shallow')">
+                            <span class="option-icon">🌊</span>
+                            <strong>Shallow</strong> (Surface to 12 inches)
+                        </button>
+                        <button class="option-button" onclick="selectAnswer('depth', 'medium')">
+                            <span class="option-icon">🕳️</span>
+                            <strong>Medium</strong> (12-20 inches)
+                        </button>
+                        <button class="option-button" onclick="selectAnswer('depth', 'deep')">
+                            <span class="option-icon">⛏️</span>
+                            <strong>Deep</strong> (20+ inches)
+                        </button>
+                    </div>
+
+                    <button class="btn btn-primary" onclick="submitQuiz()">Find My Perfect Detector →</button>
+                </div>
+            </section>
+
+            <!-- Info Section -->
+            <section class="info-grid container">
+                <div class="info-card">
+                    <div class="icon">⚡</div>
+                    <h3>Accurate Recommendations</h3>
+                    <p>Get personalized detector recommendations based on your experience and needs.</p>
+                </div>
+                <div class="info-card">
+                    <div class="icon">⭐</div>
+                    <h3>Top-Rated Products</h3>
+                    <p>All recommended detectors are highly rated and proven to work effectively.</p>
+                </div>
+                <div class="info-card">
+                    <div class="icon">🎁</div>
+                    <h3>Best Prices</h3>
+                    <p>Direct links to Amazon with the best available prices and fast shipping.</p>
+                </div>
+            </section>
+        </div>
+
+        <!-- Results Section -->
+        <div id="resultsSection" class="hidden">
+            <section class="results-section">
+                <div class="container">
+                    <div class="results-header">
+                        <h2>Your Recommended Detectors</h2>
+                        <p>Based on your preferences, here are the best options for you:</p>
+                    </div>
+                    <div id="resultsContainer"></div>
+                    <div class="text-center mt-4">
+                        <button class="btn btn-outline" onclick="resetQuiz()">Try Different Preferences</button>
+                    </div>
+                </div>
+            </section>
+
+            <!-- FAQ Section -->
+            <section class="faq-section">
+                <div class="container">
+                    <h2>Frequently Asked Questions</h2>
+                    <div class="faq-grid">
+                        <div class="faq-item">
+                            <h3>How do I choose the right detector?</h3>
+                            <p>Use our recommendation tool above to answer a few questions about your experience level, budget, and detection depth needs.</p>
+                        </div>
+                        <div class="faq-item">
+                            <h3>Are these affiliate links?</h3>
+                            <p>Yes, we earn a small commission from Amazon purchases, but it doesn't affect the price you pay.</p>
+                        </div>
+                        <div class="faq-item">
+                            <h3>Can I return a detector?</h3>
+                            <p>Amazon's return policy applies. Most detectors have a 30-day return window for returns.</p>
+                        </div>
+                        <div class="faq-item">
+                            <h3>What's the best detector for beginners?</h3>
+                            <p>The DR.ÖTEK Metal Detector is highly recommended for beginners - it's affordable, easy to use, and includes everything you need.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div>
+                    <h4>gogold</h4>
+                    <p>Find the perfect metal detector for your treasure hunting needs.</p>
+                </div>
+                <div>
+                    <h4>Product Categories</h4>
+                    <ul>
+                        <li><a href="#">Beginner Detectors</a></li>
+                        <li><a href="#">Professional Detectors</a></li>
+                        <li><a href="#">Budget Options</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4>Resources</h4>
+                    <ul>
+                        <li><a href="#">Buying Guide</a></li>
+                        <li><a href="#">Comparison Chart</a></li>
+                        <li><a href="#">FAQ</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4>Legal</h4>
+                    <ul>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#">Affiliate Disclosure</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2025 gogold. All rights reserved. | Affiliate Links - We earn a commission from Amazon purchases</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Detector Database
+        const DETECTORS = [
+            {
+                id: 1,
+                name: "DR.ÖTEK Metal Detector",
+                link: "https://amzn.to/46kQcrK",
+                price: 109.99,
+                experience: "beginner",
+                budget: "low",
+                depth: "shallow",
+                rating: 4.4,
+                image: "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 200'%3E%3Crect fill='%23f1f5f9' width='200' height='200'/%3E%3Ctext x='50%' y='50%' text-anchor='middle' dy='.3em' font-size='14' fill='%2364748b'%3EDR.ÖTEK Detector%3C/text%3E%3C/svg%3E",
+                hook: "Great starter detector for the price, but limited depth means you'll miss deeper nuggets.",
+                specs: {
+                    frequency: "18.75 kHz",
+                    maxDepth: "10 inches",
+                    weight: "3.5 lbs",
+                    waterproof: "Yes",
+                    batteryLife: "40+ hours",
+                    coilSize: "8.5 x 6 inch"
+                }
+            },
+            {
+                id: 2,
+                name: "Premium VLF Detector",
+                link: "https://amzn.to/4qzscdq",
+                price: 199.99,
+                experience: "intermediate",
+                budget: "medium",
+                depth: "medium",
+                rating: 4.3,
+                image: "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 200'%3E%3Crect fill='%23f1f5f9' width='200' height='200'/%3E%3Ctext x='50%' y='50%' text-anchor='middle' dy='.3em' font-size='14' fill='%2364748b'%3EPremium VLF%3C/text%3E%3C/svg%3E",
+                hook: "Solid all-around option with good features, but not specialized for any particular use case.",
+                specs: {
+                    frequency: "Multi-frequency",
+                    maxDepth: "12-15 inches",
+                    weight: "3.2 lbs",
+                    waterproof: "Yes",
+                    batteryLife: "12-15 hours",
+                    coilSize: "11 inch DD"
+                }
+            },
+            {
+                id: 3,
+                name: "Professional PI Detector",
+                link: "https://amzn.to/47cLZYI",
+                price: 299.99,
+                experience: "professional",
+                budget: "high",
+                depth: "deep",
+                rating: 4.6,
+                image: "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 200'%3E%3Crect fill='%23f1f5f9' width='200' height='200'/%3E%3Ctext x='50%' y='50%' text-anchor='middle' dy='.3em' font-size='14' fill='%2364748b'%3EProfessional PI%3C/text%3E%3C/svg%3E",
+                hook: "Excellent depth penetration for serious prospectors, but overkill if you're just starting out.",
+                specs: {
+                    frequency: "Pulse Induction",
+                    maxDepth: "20+ inches",
+                    weight: "4.2 lbs",
+                    waterproof: "Yes",
+                    batteryLife: "30+ hours",
+                    coilSize: "11 inch DD"
+                }
+            },
+            {
+                id: 4,
+                name: "Advanced Multi-Frequency",
+                link: "https://amzn.to/3WuxF7H",
+                price: 399.99,
+                experience: "professional",
+                budget: "high",
+                depth: "deep",
+                rating: 4.7,
+                image: "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 200'%3E%3Crect fill='%23f1f5f9' width='200' height='200'/%3E%3Ctext x='50%' y='50%' text-anchor='middle' dy='.3em' font-size='14' fill='%2364748b'%3EAdvanced Multi%3C/text%3E%3C/svg%3E",
+                hook: "Top-tier performance in any soil condition, but the steep learning curve isn't for beginners.",
+                specs: {
+                    frequency: "Multi-frequency (4-99 kHz)",
+                    maxDepth: "15-18 inches",
+                    weight: "1.8 lbs",
+                    waterproof: "Yes",
+                    batteryLife: "20+ hours",
+                    coilSize: "11 inch DD"
+                }
+            },
+            {
+                id: 5,
+                name: "Budget Beginner Kit",
+                link: "https://amzn.to/3WZN3cn",
+                price: 149.99,
+                experience: "beginner",
+                budget: "low",
+                depth: "shallow",
+                rating: 4.2,
+                image: "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 200'%3E%3Crect fill='%23f1f5f9' width='200' height='200'/%3E%3Ctext x='50%' y='50%' text-anchor='middle' dy='.3em' font-size='14' fill='%2364748b'%3EBudget Kit%3C/text%3E%3C/svg%3E",
+                hook: "Perfect entry point for hobbyists, but you'll quickly outgrow it as your skills improve.",
+                specs: {
+                    frequency: "18.75 kHz",
+                    maxDepth: "10 inches",
+                    weight: "3.5 lbs",
+                    waterproof: "Yes",
+                    batteryLife: "40+ hours",
+                    coilSize: "8.5 x 6 inch"
+                }
+            },
+            {
+                id: 6,
+                name: "Intermediate VLF",
+                link: "https://amzn.to/4hC7hTh",
+                price: 249.99,
+                experience: "intermediate",
+                budget: "medium",
+                depth: "medium",
+                rating: 4.4,
+                image: "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 200'%3E%3Crect fill='%23f1f5f9' width='200' height='200'/%3E%3Ctext x='50%' y='50%' text-anchor='middle' dy='.3em' font-size='14' fill='%2364748b'%3EIntermediate VLF%3C/text%3E%3C/svg%3E",
+                hook: "Reliable mid-range option with good battery life, but newer models offer better features.",
+                specs: {
+                    frequency: "18.75 kHz",
+                    maxDepth: "12 inches",
+                    weight: "3.6 lbs",
+                    waterproof: "Yes",
+                    batteryLife: "40+ hours",
+                    coilSize: "8.5 inch DD"
+                }
+            },
+            {
+                id: 7,
+                name: "Professional PI Gold Finder",
+                link: "https://amzn.to/4366Jip",
+                price: 349.99,
+                experience: "professional",
+                budget: "high",
+                depth: "deep",
+                rating: 4.5,
+                image: "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 200'%3E%3Crect fill='%23f1f5f9' width='200' height='200'/%3E%3Ctext x='50%' y='50%' text-anchor='middle' dy='.3em' font-size='14' fill='%2364748b'%3EProfessional PI Gold%3C/text%3E%3C/svg%3E",
+                hook: "Specialized for gold with impressive depth, but limited versatility for other metal types.",
+                specs: {
+                    frequency: "Pulse Induction",
+                    maxDepth: "18-22 inches",
+                    weight: "4.0 lbs",
+                    waterproof: "Yes",
+                    batteryLife: "35+ hours",
+                    coilSize: "10 inch DD"
+                }
+            },
+            {
+                id: 8,
+                name: "Transitional Detector",
+                link: "https://amzn.to/3LdELv6",
+                price: 179.99,
+                experience: "intermediate",
+                budget: "medium",
+                depth: "medium",
+                rating: 4.3,
+                image: "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 200'%3E%3Crect fill='%23f1f5f9' width='200' height='200'/%3E%3Ctext x='50%' y='50%' text-anchor='middle' dy='.3em' font-size='14' fill='%2364748b'%3ETransitional%3C/text%3E%3C/svg%3E",
+                hook: "Good bridge between beginner and professional models, but doesn't excel in any category.",
+                specs: {
+                    frequency: "18.75 kHz",
+                    maxDepth: "11 inches",
+                    weight: "3.8 lbs",
+                    waterproof: "Yes",
+                    batteryLife: "40+ hours",
+                    coilSize: "8.5 inch DD"
+                }
+            },
+            {
+                id: 9,
+                name: "Expert Multi-Frequency Pro",
+                link: "https://amzn.to/4qNAAGC",
+                price: 429.99,
+                experience: "professional",
+                budget: "high",
+                depth: "deep",
+                rating: 4.8,
+                image: "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 200'%3E%3Crect fill='%23f1f5f9' width='200' height='200'/%3E%3Ctext x='50%' y='50%' text-anchor='middle' dy='.3em' font-size='14' fill='%2364748b'%3EExpert Multi-Freq%3C/text%3E%3C/svg%3E",
+                hook: "The gold standard for serious prospectors with unmatched performance, but the price reflects that.",
+                specs: {
+                    frequency: "Multi-frequency (5-45 kHz)",
+                    maxDepth: "20+ inches",
+                    weight: "3.2 lbs",
+                    waterproof: "Yes",
+                    batteryLife: "40+ hours",
+                    coilSize: "11 inch DD"
+                }
+            },
+            {
+                id: 10,
+                name: "Intermediate Plus Detector",
+                link: "https://amzn.to/3WwqV9r",
+                price: 219.99,
+                experience: "intermediate",
+                budget: "medium",
+                depth: "medium",
+                rating: 4.3,
+                image: "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 200'%3E%3Crect fill='%23f1f5f9' width='200' height='200'/%3E%3Ctext x='50%' y='50%' text-anchor='middle' dy='.3em' font-size='14' fill='%2364748b'%3EIntermediate Plus%3C/text%3E%3C/svg%3E",
+                hook: "Solid intermediate choice with decent features, but overshadowed by more advanced competitors.",
+                specs: {
+                    frequency: "18.75 kHz",
+                    maxDepth: "11 inches",
+                    weight: "3.6 lbs",
+                    waterproof: "Yes",
+                    batteryLife: "35+ hours",
+                    coilSize: "8.5 inch DD"
+                }
+            },
+            {
+                id: 11,
+                name: "Professional PI Advanced",
+                link: "https://amzn.to/435Iocu",
+                price: 379.99,
+                experience: "professional",
+                budget: "high",
+                depth: "deep",
+                rating: 4.6,
+                image: "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 200'%3E%3Crect fill='%23f1f5f9' width='200' height='200'/%3E%3Ctext x='50%' y='50%' text-anchor='middle' dy='.3em' font-size='14' fill='%2364748b'%3EProfessional PI Adv%3C/text%3E%3C/svg%3E",
+                hook: "Professional-grade performance with proven reliability, but requires experience to maximize potential.",
+                specs: {
+                    frequency: "Pulse Induction",
+                    maxDepth: "22+ inches",
+                    weight: "4.1 lbs",
+                    waterproof: "Yes",
+                    batteryLife: "30+ hours",
+                    coilSize: "11 inch DD"
+                }
+            },
+            {
+                id: 12,
+                name: "Budget Basic Detector",
+                link: "https://amzn.to/4nt0gFk",
+                price: 129.99,
+                experience: "beginner",
+                budget: "low",
+                depth: "shallow",
+                rating: 4.1,
+                image: "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 200'%3E%3Crect fill='%23f1f5f9' width='200' height='200'/%3E%3Ctext x='50%' y='50%' text-anchor='middle' dy='.3em' font-size='14' fill='%2364748b'%3EBudget Basic%3C/text%3E%3C/svg%3E",
+                hook: "Affordable entry-level option with simple operation, but minimal features and shallow depth.",
+                specs: {
+                    frequency: "6.6 kHz",
+                    maxDepth: "8 inches",
+                    weight: "2.5 lbs",
+                    waterproof: "No",
+                    batteryLife: "30+ hours",
+                    coilSize: "8 inch DD"
+                }
+            },
+            {
+                id: 13,
+                name: "Intermediate High-Frequency",
+                link: "https://amzn.to/436HCff",
+                price: 289.99,
+                experience: "intermediate",
+                budget: "medium",
+                depth: "deep",
+                rating: 4.4,
+                image: "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 200'%3E%3Crect fill='%23f1f5f9' width='200' height='200'/%3E%3Ctext x='50%' y='50%' text-anchor='middle' dy='.3em' font-size='14' fill='%2364748b'%3EIntermediate HF%3C/text%3E%3C/svg%3E",
+                hook: "Good for small gold nuggets with decent depth, but not ideal for general-purpose detecting.",
+                specs: {
+                    frequency: "61 kHz",
+                    maxDepth: "14 inches",
+                    weight: "2.8 lbs",
+                    waterproof: "Yes",
+                    batteryLife: "25+ hours",
+                    coilSize: "7.5 inch DD"
+                }
+            }
+        ];
+
+        // State
+        let answers = {
+            experience: '',
+            budget: '',
+            depth: ''
+        };
+
+        // Select Answer
+        function selectAnswer(type, value) {
+            answers[type] = value;
+            
+            // Update button styles
+            const buttons = document.querySelectorAll(`.quiz-question:has([onclick*="'${type}'"])`);
+            buttons.forEach(section => {
+                section.querySelectorAll('.option-button').forEach(btn => {
+                    btn.classList.remove('selected');
+                    if (btn.textContent.includes(value.charAt(0).toUpperCase() + value.slice(1)) || 
+                        (value === 'beginner' && btn.textContent.includes('Beginner')) ||
+                        (value === 'intermediate' && btn.textContent.includes('Intermediate')) ||
+                        (value === 'professional' && btn.textContent.includes('Professional')) ||
+                        (value === 'low' && btn.textContent.includes('Budget')) ||
+                        (value === 'medium' && btn.textContent.includes('Mid')) ||
+                        (value === 'high' && btn.textContent.includes('Premium')) ||
+                        (value === 'shallow' && btn.textContent.includes('Shallow')) ||
+                        (value === 'medium' && btn.textContent.includes('Medium')) ||
+                        (value === 'deep' && btn.textContent.includes('Deep'))) {
+                        btn.classList.add('selected');
+                    }
+                });
+            });
+        }
+
+        // Submit Quiz
+        function submitQuiz() {
+            if (!answers.experience || !answers.budget || !answers.depth) {
+                alert('Please answer all questions');
+                return;
+            }
+
+            // Filter detectors
+            const filtered = DETECTORS.filter(d =>
+                d.experience === answers.experience &&
+                d.budget === answers.budget &&
+                d.depth === answers.depth
+            );
+
+            const recommendations = filtered.length > 0 ? filtered : DETECTORS.slice(0, 3);
+
+            // Display results
+            displayResults(recommendations);
+        }
+
+        // Display Results
+        function displayResults(detectors) {
+            const quizSection = document.getElementById('quizSection');
+            const resultsSection = document.getElementById('resultsSection');
+            const resultsContainer = document.getElementById('resultsContainer');
+            const resetBtn = document.getElementById('resetBtn');
+
+            quizSection.classList.add('hidden');
+            resultsSection.classList.remove('hidden');
+            resetBtn.classList.remove('hidden');
+
+            resultsContainer.innerHTML = detectors.map((detector, index) => `
+                <div class="detector-card">
+                    <div class="detector-grid">
+                        <div class="detector-image">
+                            <img src="${detector.image}" alt="${detector.name}" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 200 200%22%3E%3Crect fill=%22%23f1f5f9%22 width=%22200%22 height=%22200%22/%3E%3Ctext x=%2250%25%22 y=%2250%25%22 text-anchor=%22middle%22 dy=%22.3em%22 font-size=%2214%22 fill=%22%2364748b%22%3E${detector.name}%3C/text%3E%3C/svg%3E'">
+                        </div>
+                        <div class="detector-info">
+                            <span class="detector-badge">#${index + 1} Recommendation</span>
+                            <h3>${detector.name}</h3>
+                            
+                            <div class="detector-rating">
+                                <div class="stars">
+                                    ${[...Array(5)].map((_, i) => `<span class="star ${i < Math.floor(detector.rating) ? '' : 'empty'}">★</span>`).join('')}
+                                    <span style="margin-left: 0.5rem; font-size: 0.875rem; color: #64748b;">${detector.rating} stars</span>
+                                </div>
+                                <span class="price">$${detector.price}</span>
+                            </div>
+
+                            <div class="hook">"${detector.hook}"</div>
+
+                            <div class="specs-grid">
+                                <div class="spec-item">
+                                    <div class="spec-icon">📡</div>
+                                    <div class="spec-content">
+                                        <div class="spec-label">Frequency</div>
+                                        <div class="spec-value">${detector.specs.frequency}</div>
+                                    </div>
+                                </div>
+                                <div class="spec-item">
+                                    <div class="spec-icon">📊</div>
+                                    <div class="spec-content">
+                                        <div class="spec-label">Max Depth</div>
+                                        <div class="spec-value">${detector.specs.maxDepth}</div>
+                                    </div>
+                                </div>
+                                <div class="spec-item">
+                                    <div class="spec-icon">⚖️</div>
+                                    <div class="spec-content">
+                                        <div class="spec-label">Weight</div>
+                                        <div class="spec-value">${detector.specs.weight}</div>
+                                    </div>
+                                </div>
+                                <div class="spec-item">
+                                    <div class="spec-icon">💧</div>
+                                    <div class="spec-content">
+                                        <div class="spec-label">Waterproof</div>
+                                        <div class="spec-value">${detector.specs.waterproof}</div>
+                                    </div>
+                                </div>
+                                <div class="spec-item">
+                                    <div class="spec-icon">🔋</div>
+                                    <div class="spec-content">
+                                        <div class="spec-label">Battery Life</div>
+                                        <div class="spec-value">${detector.specs.batteryLife}</div>
+                                    </div>
+                                </div>
+                                <div class="spec-item">
+                                    <div class="spec-icon">⭕</div>
+                                    <div class="spec-content">
+                                        <div class="spec-label">Coil Size</div>
+                                        <div class="spec-value">${detector.specs.coilSize}</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <a href="${detector.link}" target="_blank" rel="noopener noreferrer" class="btn btn-amazon">
+                                View on Amazon →
+                            </a>
+                            <div style="font-size: 0.75rem; color: #94a3b8; margin-top: 0.5rem;">
+                                Affiliate link - We may earn a commission
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            `).join('');
+
+            window.scrollTo(0, 0);
+        }
+
+        // Reset Quiz
+        function resetQuiz() {
+            answers = { experience: '', budget: '', depth: '' };
+            document.getElementById('quizSection').classList.remove('hidden');
+            document.getElementById('resultsSection').classList.add('hidden');
+            document.getElementById('resetBtn').classList.add('hidden');
+            document.querySelectorAll('.option-button').forEach(btn => btn.classList.remove('selected'));
+            window.scrollTo(0, 0);
+        }
+    </script>
+</body>
+</html>
